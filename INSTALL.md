@@ -36,7 +36,7 @@ WSL1 is the preferred terminal to build **pokeemerald Expansion**. The following
 1. Open [Windows Powershell **as Administrator**](https://i.imgur.com/QKmVbP9.png), and run the following commands (Right Click or Shift+Insert is paste in the Powershell).
 
     ```powershell
-	wsl --install -d Ubuntu --enable-wsl1
+	wsl --install -d Debian --enable-wsl1
     ```
 
 2. Once the process finishes, restart your machine.
@@ -44,7 +44,7 @@ WSL1 is the preferred terminal to build **pokeemerald Expansion**. The following
 3. Open Windows Powershell **as Administrator** again (after restarting), and run the following command to configure Ubuntu to use WSL1.
 
     ```powershell
-    wsl --set-version Ubuntu 1
+    wsl --set-version Debian 1
     ```
     <details>
         <summary><i>Note...</i></summary>
